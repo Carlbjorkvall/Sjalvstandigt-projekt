@@ -1,0 +1,33 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0097a7ff;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #006f7bff;
+}
+
+li:last-child {
+  border: none;
+}
+
+li a {
+  display: block;
+  font-family: impact;
+  color: white;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #006f7bff;
+}
+
+.mySlides {
+  display: none;
+}
