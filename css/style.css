@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -29,5 +33,16 @@ li a:hover {
 }
 
 .mySlides {
+  animation: fading 7s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0};
   display: none;
+}
+
+.slideshow {
+  margin: 0px auto;
+  margin-top: 50px;
+  border: solid white 5px;
+}
+
+.logo {
+  position: absolute;
 }
