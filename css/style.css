@@ -1,5 +1,8 @@
 body {
   background-color: black;
+  background-image: url("https://getwallpapers.com/wallpaper/full/a/e/8/444177.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 ul {
@@ -21,7 +24,7 @@ li:last-child {
 
 li a {
   display: block;
-  font-family: impact;
+  font-family: helvetica;
   color: white;
   text-align: center;
   padding: 18px 16px;
@@ -40,9 +43,20 @@ li a:hover {
 .slideshow {
   margin: 0px auto;
   margin-top: 50px;
-  border: solid white 5px;
+  border: solid #0097a7ff 5px;
+  position: relative;
+  background-color: black;
 }
 
 .logo {
+  z-index: 1;
   position: absolute;
+  margin: 0px auto;
+  left: 0;
+  right: 0;
+  top: 33%;
+}
+
+.container>div {
+  background-color: rgba(255, 255, 255, 0.4);
 }
