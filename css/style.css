@@ -35,6 +35,14 @@ li a:hover {
   background-color: #006f7bff;
 }
 
+@media screen and (max-width: 400px) {
+ {
+
+}
+}
+
+/*slideshow*/
+
 .mySlides {
   animation: fading 7s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0};
   display: none;
@@ -59,4 +67,9 @@ li a:hover {
 
 .container>div {
   background-color: rgba(255, 255, 255, 0.4);
+  font-family: helvetica;
+}
+
+h2 {
+  text-align: center;
 }
