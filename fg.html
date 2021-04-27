@@ -7,17 +7,20 @@
   <title>Famous guitarists</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="fg.html">Famous guitarists</a></li>
-    <li><a href="#G">Genres</a></li>
-    <li><a href="#DG">Different guitars</a></li>
-    <li style="float:right"><a href="#C">Contact</a></li>
-  </ul>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="fg.html" class="active">Famous guitarists</a>
+    <a href="#contact">Genres</a>
+    <a href="#about">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
 
   <div class="container">
 
@@ -35,6 +38,7 @@
 
   </div>
 
+  <script src="js/script.js"></script>
 </body>
 
 </html>

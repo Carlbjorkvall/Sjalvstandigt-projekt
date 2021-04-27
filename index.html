@@ -7,27 +7,48 @@
   <title>Guitar</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-  <ul class="nav">
+<!--old navbar-->
+
+  <!--<ul class="topnav" id="myTopnav">
     <li><a href="index.html">Home</a></li>
     <li><a href="fg.html">Famous guitarists</a></li>
     <li><a href="#G">Genres</a></li>
     <li><a href="#DG">Different guitars</a></li>
     <li style="float:right"><a href="#C">Contact</a></li>
-  </ul>
+  </ul>-->
 
-  <div class="logodiv">
-    <img class="logo" src="img/logo1.png" alt="logo">
+<!--responsive navbar-->
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="fg.html">Famous guitarists</a>
+    <a href="#contact">Genres</a>
+    <a href="#about">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
 
-  <div class="slideshow" style="max-width:70%">
-    <img class="mySlides" src="img/hetfield.jpeg" alt="Hetfield " style="width:100%">
-    <img class="mySlides" src="img/EVH.jpeg" alt="EVH" style="width:100%">
-    <img class="mySlides" src="img/mustaine.jpg" alt="Mustaine" style="width:100%">
-  </div>
+  <div class="homeimg">
+
+    <div class="logodiv">
+      <img class="logo" src="img/logo1.png" alt="logo">
+    </div>
+
+<!--slideshow-->
+
+    <div class="slideshow" style="max-width:70%">
+      <img class="mySlides" src="img/hetfield.jpeg" alt="Hetfield " style="width:100%">
+      <img class="mySlides" src="img/EVH.jpeg" alt="EVH" style="width:100%">
+      <img class="mySlides" src="img/mustaine.jpg" alt="Mustaine" style="width:100%">
+    </div>
+
+    </div>
 
   <script src="js/script.js"></script>
 </body>

@@ -14,3 +14,14 @@ function carousel() {
   x[myIndex-1].style.display = "block";
   setTimeout(carousel, 7000); // byter bild var femte sekund
 }
+
+//responsive navbar
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
