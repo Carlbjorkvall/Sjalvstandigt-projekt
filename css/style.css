@@ -6,7 +6,8 @@ body {
   font-family: helvetica;
 }
 
-/*old navbar*/
+/* old navbar */
+
 /*ul {
   list-style-type: none;
   margin: 0;
@@ -35,7 +36,8 @@ li a {
 li a:hover {
   background-color: #006f7bff;
 }*/
-/*responsive navbar*/
+
+/* responsive navbar */
 .topnav {
   overflow: hidden;
   background-color: #0097a7ff;
@@ -95,7 +97,7 @@ li a:hover {
   }
 }
 
-/*slideshow*/
+/* slideshow */
 .mySlides {
   animation: fading 7s infinite
 }
@@ -140,19 +142,43 @@ li a:hover {
   position: relative;
 }
 
-/*fg*/
-.container>article {
-  background-color: rgba(255, 255, 255, 0.4);
-}
 
-h2 {
+/* fg */
+
+.EVHh1 {
   text-align: center;
+  margin: 0px;
+  margin-top: 10px;
+  white-space: nowrap;
 }
 
 .EVH {
-  position: absolute;
-  max-width: 50%;
+  max-width: 100%;
+}
+
+.EVHarticle>h2 {
+  font-size: 20px;
+}
+
+.background {
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: -1;
+  border: solid 3px #0097a7ff;
+}
+
+@media screen and (max-width: 1150px) {
+  .EVHh1 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .EVHarticle>h2 {
+    font-size: 15px;
+  }
+}
+
+.FGlogo {
+  max-width: 75%;
+  display: block;
   margin: 0px auto;
-  left: 0;
-  right: 0;
+  margin-top: 20px;
 }

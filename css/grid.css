@@ -1,10 +1,10 @@
 .container {
   display: grid;
-  grid-template-rows: repeat(20, 50px);
+  grid-template-rows: 50px 50px auto auto 50px;
   grid-template-columns: repeat(13, 1fr);
 }
 
-.div1 {
+/*.div1 {
   grid-column: 3/12;
   grid-row: 2/20;
 }
@@ -12,4 +12,24 @@
 .EVH {
   grid-column: 4/11;
   grid-row: 3/9;
+}*/
+
+.EVHh1 {
+  grid-column: 4/11;
+  grid-row: 2/3;
+}
+
+.EVH {
+  grid-column: 4/11;
+  grid-row: 3/auto;
+}
+
+.EVHarticle {
+  grid-column: 4/11;
+  grid-row: 4/auto;
+}
+
+.background {
+  grid-column: 3/12;
+  grid-row: 2/5;
 }
