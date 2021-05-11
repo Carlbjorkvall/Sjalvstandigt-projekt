@@ -1,18 +1,12 @@
+/* specficering av rader/kolumner */
+
 .container {
   display: grid;
   grid-template-rows: 50px 50px auto auto 50px;
   grid-template-columns: repeat(13, 1fr);
 }
 
-/*.div1 {
-  grid-column: 3/12;
-  grid-row: 2/20;
-}
-
-.EVH {
-  grid-column: 4/11;
-  grid-row: 3/9;
-}*/
+/* grid för artikeln i fg.html */
 
 .EVHh1 {
   grid-column: 4/11;
@@ -28,6 +22,8 @@
   grid-column: 4/11;
   grid-row: 4/auto;
 }
+
+/* bakgrund för lättläslighet */
 
 .background {
   grid-column: 3/12;

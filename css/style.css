@@ -68,6 +68,8 @@ li a:hover {
   display: none;
 }
 
+/* responsivitet för navbar */
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
     display: none;
@@ -97,10 +99,19 @@ li a:hover {
   }
 }
 
+.indexh1 {
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+}
+
 /* slideshow */
+
 .mySlides {
   animation: fading 7s infinite
 }
+
+/* fade effekt */
 
 @keyframes fading {
   0% {
@@ -142,8 +153,7 @@ li a:hover {
   position: relative;
 }
 
-
-/* fg */
+/* fg.html */
 
 .EVHh1 {
   text-align: center;
@@ -166,6 +176,8 @@ li a:hover {
   border: solid 3px #0097a7ff;
 }
 
+/* responsiva tillämpningar */
+
 @media screen and (max-width: 1150px) {
   .EVHh1 {
     font-size: 20px;
@@ -173,6 +185,10 @@ li a:hover {
   }
   .EVHarticle>h2 {
     font-size: 15px;
+  }
+  .indexh1 {
+    font-size: 20px;
+    margin-top: 25px;
   }
 }
 
